@@ -1,1 +1,4 @@
-module.exports = process.stdout.write('\033c');
+module.exports = function () {
+  process.stdout.write('\033c');
+};
+
